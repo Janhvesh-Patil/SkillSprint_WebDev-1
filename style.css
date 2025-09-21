@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
 #nav-bar {
     background-color: #D9D9D985;
     height: 69px;
-    opacity: 52%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 body {
@@ -10,4 +14,49 @@ body {
     background-repeat: no-repeat;     
     background-position: center;
     background-color: black;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: white 1px solid;
+    font-size: 25px;
+    font-family: 'Jura';
+    font-weight: 400;
+}
+
+#BTD {
+    height: 100%;
+    width: 33%;
+}
+
+#BTD:hover {
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+
+#FND {
+    height: 100%;
+    width: 34%;
+    border-left: white 1px solid;
+}
+
+#FND:hover {
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+
+#CWE {
+    height: 100%;
+    width: 33%;
+    border-left: white 1px solid;
+}
+
+#CWE:hover {
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.5s;
 }
