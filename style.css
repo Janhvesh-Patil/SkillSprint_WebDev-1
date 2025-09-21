@@ -1,0 +1,13 @@
+#nav-bar {
+    background-color: #D9D9D985;
+    height: 69px;
+    opacity: 52%;
+}
+
+body {
+    background-image: url("Pictures/Background_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;     
+    background-position: center;
+    background-color: black;
+}
