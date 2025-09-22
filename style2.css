@@ -71,9 +71,21 @@ h1 {
     color: white;
 }
 
+#brand-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 a {
     text-decoration: none;
     color: white;
+}
+
+#logo {
+    height: 6em;
+    width: 6em;
+    align-self: center;
 }
 
 #social-logos {
