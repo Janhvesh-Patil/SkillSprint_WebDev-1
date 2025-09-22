@@ -29,3 +29,44 @@ h1 {
 #email::placeholder {
     color: rgba(255, 255, 255, 1);
 }
+
+#lower {
+    background-color: rgba(42, 89, 109, 1);
+    margin-top: 25vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#name1 {
+    color: rgb(76, 245, 141);
+    font-size: 2em;
+}
+
+#name2 {
+    color: gray;
+    font-size: 2em;
+}
+
+#explore ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;
+    line-height: 2em;
+}
+
+#explore ul li::before {
+    content: "➔ ";
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#social-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
