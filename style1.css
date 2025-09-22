@@ -98,3 +98,23 @@ body {
     background-color: rgba(217, 217, 217, 0.1);
     height: 394px;
 }
+
+#eSUV-label {
+    font-family: "Encode Sans Condensed";
+    font-size: 9px;
+    color: white;
+    margin-left: 30px;
+    
+}
+
+#car-select {
+    width: 365px;
+    height: 49px;
+    color: white;
+    background: transparent;
+    border: 2px solid #fff;
+    font-family: "Almaria Bold";
+    margin-left: 24px;
+    padding-left: 24px;
+    font-size: 19px;
+}
