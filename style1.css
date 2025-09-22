@@ -87,7 +87,7 @@ body {
     width: 628px;
     height: 54px;
     font-family: "Encode Sans Condensed";
-    margin-top: 181px;
+    margin-top: 130px;
     margin-left: 67px;
     font-weight: 800;
     font-size: 43px;
@@ -217,4 +217,47 @@ input[type="range"] {
     height: 112px;
     width: 403px;
     border-radius: 25px;
+}
+
+#savings-text {
+    display: inline-block;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+#money {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "open sans", sans-serif;
+    font-size: 27px;
+    padding-right: 20px;
+}
+
+#co2-text {
+    display: inline-block;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+#s0 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 20px;
+    justify-content: flex-start;
+    margin-top: -20px;
+}
+
+#s1 {
+    font-family: "open sans", sans-serif;
+    font-size: 27px;
+}
+
+#s2 {
+    font-family: "Encoded sans condensed", sans-serif;
+    font-size: 12px;
 }

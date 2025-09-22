@@ -66,16 +66,26 @@
 
                 <div id="resources">
                     <div id="savings">
-                        <img src="Pictures/Savings.png" id="Savings" alt="Savings" class="resource-img">
-                        Total Savings <br>
-                        <span class="slider-unit">&#8377;10,17,671</span>
+                        <span id="savings-text">
+                            <img src="Pictures/Savings.png" id="Savings" alt="Savings" class="resource-img">
+                            Total Savings
+                        </span> <br>
+
+                        <span id="money">
+                            &#8377;10,17,671
+                        </span>
                     </div>
 
                     <div id="co2">
-                        <img src="Pictures/co2-reduction.png" id="co2-reduction" alt="co2-reduction" class="resource-img">
-                        CO<sub>2</sub> Reduction <br>
-                        1234 <br>
-                        Full grown trees                        
+                        <span id="co2-text">
+                            <img src="Pictures/co2-reduction.png" id="co2-reduction" alt="co2-reduction" class="resource-img">
+                            CO<sub>2</sub> &nbsp; Reduction
+                        </span> <br>
+
+                        <span id="s0">
+                            <span id="s1">1234</span>
+                            <span id="s2">Full grown trees</span>
+                        </span>                    
                     </div>
                 </div>
             </div>
@@ -85,5 +95,19 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.getElementById('daily-driving').oninput = function() {
+            document.getElementById('daily-driving-value').textContent = this.value;
+        };
+        
+        document.getElementById('fuel-cost').oninput = function() {
+            document.getElementById('fuel-cost-value').textContent = this.value;
+        };
+        
+        document.getElementById('years').oninput = function() {
+            document.getElementById('years-value').textContent = this.value;
+        };
+    </script>
 </body>
 </html>
