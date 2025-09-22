@@ -22,10 +22,10 @@
                 <label class="drop-title">eSUV of your choice</label>
                 <br>
                 <select id="car-select">
-                    <option value="XEV 9e" class="cars">XEV 9e</option>
-                    <option value="BE 6" class="cars">BE 6</option>
-                    <option value="INGLO" class="cars">INGLO</option>
-                    <option value="MAIA" class="cars">MAIA</option>
+                    <option value="XEV 9e">XEV 9e</option>
+                    <option value="BE 6">BE 6</option>
+                    <option value="INGLO">INGLO</option>
+                    <option value="MAIA">MAIA</option>
                 </select>
             </div>
 
@@ -33,14 +33,57 @@
                 <label class="drop-title">Your current vehicle type</label>
                 <br>
                 <select id="car-select">
-                    <option value="XEV 9e" class="cars">XEV 9e</option>
-                    <option value="BE 6" class="cars">BE 6</option>
-                    <option value="INGLO" class="cars">INGLO</option>
-                    <option value="MAIA" class="cars">MAIA</option>
+                    <option value="XEV 9e">Petrol</option>
+                    <option value="BE 6">Diesel</option>
+                    <option value="INGLO">Electric</option>
+                    <option value="MAIA">Hybrid</option>
                 </select>
             </div>
         </div>
-        <div id="down">wmcxolmqnvno</div>
+        <div id="down">
+            <div id="middle">
+                <div id="slider-bars">
+                    <div class="slider-row">
+                        <label class="slider-label">Daily driving average</label>
+                        <input type="range" min="0" max="500" value="50" id="daily-driving">
+                        <span class="slider-value" id="daily-driving-value">50</span>
+                        <span class="slider-unit">KM</span>
+                    </div>
+
+                    <div class="slider-row">
+                        <label class="slider-label">Fuel Cost</label>
+                        <input type="range" min="0" max="200" value="109" id="fuel-cost">
+                        <span class="slider-value" id="fuel-cost-value">109</span>
+                        <span class="slider-unit">&#8377;</span>
+                    </div>
+
+                    <div class="slider-row">
+                        <label class="slider-label">No. of years</label>
+                        <input type="range" min="0" max="15" value="10" id="years">
+                        <span class="slider-value" id="years-value">10</span>
+                    </div>
+                </div>
+
+                <div id="resources">
+                    <div id="savings">
+                        <img src="Pictures/Savings.png" id="Savings" alt="Savings" class="resource-img">
+                        Total Savings <br>
+                        <span class="slider-unit">&#8377;10,17,671</span>
+                    </div>
+
+                    <div id="co2">
+                        <img src="Pictures/co2-reduction.png" id="co2-reduction" alt="co2-reduction" class="resource-img">
+                        CO<sub>2</sub> Reduction <br>
+                        1234 <br>
+                        Full grown trees                        
+                    </div>
+                </div>
+            </div>
+            
+            <div id="disclaimer">
+                <b>Disclaimer</b> : The savings figures presented are strictly estimates based on average assumptions for running costs,insurance premiums, and maintenance, and are intended to provide a general comparison between the AlphaVolt and a typical petrol or diesel SUV. It is important to understand that your actual costs could differ significantly due to a variety of factors.These include your personal driving habits and the distances you travel, which directly affect electricity consumption, as well as fluctuating regional electricity prices. Additionally, your individual insurance policy is tailored to factors like your driving record and location, and may not align with our average figures. While electric vehicles generally have lower maintenance needs, this estimate does not account for specific servicing requirements or unforeseen repairs.Furthermore, the provided figures do not include the costs associated with financing, loans, or any applicable government taxes, fees, or incentives, which can change over time.Therefore, this calculator is for illustrative purposes only and should not be considered as a form of financial or investment advice. We strongly recommend that you conduct your own thorough research and consult with relevant professionals before making any purchasing decisions.
+            </div>
+        </div>
     </div>
 </body>
 </html>

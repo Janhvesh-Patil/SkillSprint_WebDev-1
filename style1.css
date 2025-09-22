@@ -104,7 +104,7 @@ body {
 
 .content-box {
     margin-left: 67px;
-    width: 1144px;
+    width: 1400px;
     height: 473px;
 }
 
@@ -117,6 +117,8 @@ body {
 #down {
     background-color: rgba(217, 217, 217, 0.1);
     height: 394px;
+    padding: 2px;
+    padding-bottom: 2px;
 }
 
 .drop {
@@ -138,4 +140,81 @@ body {
     font-family: "Almaria Bold";
     padding-left: 24px;
     font-size: 19px;
+}
+
+#slider-bars {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.slider-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    gap: 16px;
+}
+
+.slider-label {
+    color: white;
+    font-family: "Encode Sans Condensed", sans-serif;
+    width: 180px;
+}
+
+input[type="range"] {
+    flex: 1;
+    accent-color: white;
+    height: 4px;
+    background: transparent;
+}
+
+.slider-value {
+    color: white;
+    font-size: 1.2em;
+    margin-left: 12px;
+    min-width: 40px;
+    text-align: center;
+    font-family: "Encode Sans Condensed", sans-serif;
+}
+
+.slider-unit {
+    color: white;
+    font-size: 1em;
+    margin-left: 8px;
+    font-family: "Encode Sans Condensed", sans-serif;
+}
+
+#middle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#disclaimer {
+    color: white;
+    font-family: "open sans", sans-serif;
+    font-size: 13px;;
+}
+
+.resource-img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+#savings {
+    color: white;
+    background-color: rgba(64, 165, 207, 0.46);
+    margin-top: 40px;
+    height: 112px;
+    width: 403px;
+    border-radius: 25px;
+}
+
+#co2 {
+    color: white;
+    background-color: rgba(64, 165, 207, 0.46);
+    margin-top: 10px;
+    height: 112px;
+    width: 403px;
+    border-radius: 25px;
 }
