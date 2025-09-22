@@ -103,15 +103,15 @@ body {
 }
 
 .content-box {
-    margin: auto;
+    margin-left: 67px;
     width: 1144px;
     height: 473px;
 }
 
 #up {
+    display: flex;
     background-color: rgba(64, 165, 207, 0.46);
     height : 79px;
-    
 }
 
 #down {
@@ -119,12 +119,14 @@ body {
     height: 394px;
 }
 
-#eSUV-label {
-    font-family: "Encode Sans Condensed";
-    font-size: 9px;
-    color: white;
+.drop {
+    font-size: 15px;
+    color: white ;
     margin-left: 30px;
-    
+}
+
+.drop-title {
+    font-family: "Encode Sans Condensed";
 }
 
 #car-select {
@@ -134,7 +136,6 @@ body {
     background: transparent;
     border: 2px solid #fff;
     font-family: "Almaria Bold";
-    margin-left: 24px;
     padding-left: 24px;
     font-size: 19px;
 }
