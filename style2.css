@@ -70,3 +70,13 @@ a {
     justify-content: space-evenly;
     align-items: center;
 }
+
+#explore {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contents {
+    color: white;
+    font-weight: medium;
+}
